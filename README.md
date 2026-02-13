@@ -66,14 +66,14 @@ List the key features of your project:
 ### For Hardware:
 
 #### Components Required
->ESP32 Microcontroller
->LoRa Module (433 MHz)
->GPS Module (NEO 6M)
->Accelerometer (Fall Detection Sensor)
->OLED Display
->Push buttons
->LoRa Antenna
->Connecting Wires
+1. ESP32 Microcontroller  
+2. LoRa Module (433 MHz)  
+3. GPS Module (NEO-6M)  
+4. Accelerometer  
+5. OLED Display  
+6. Push Buttons  
+7. LoRa Antenna  
+8. Connecting Wires  
 
 #### Circuit Setup
 The transmitter circuit is built around the ESP32 microcontroller, where the LoRa module is connected via SPI communication pins, the GPS module through UART, and the accelerometer and OLED display through I2C interface. Panic and cancel buttons are connected to digital GPIO pins with pull-up configuration for emergency triggering. The receiver side uses another ESP32 interfaced with a LoRa module via SPI and connected to a computer through USB for data visualization.
