@@ -60,7 +60,7 @@ List the key features of your project:
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[Run commands - python rakshak_monitor.py]
 ```
 
 ### For Hardware:
@@ -88,14 +88,14 @@ The transmitter circuit is built around the ESP32 microcontroller, where the LoR
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](Images/Monitor.png)
+Shows the Rakshak 1.0 Python-based monitoring application running in Windows PowerShell, continuously listening to the ESP32 receiver for incoming LoRa emergency data in real time.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](Images/Map.png)
+Displays the automatically opened OpenStreetMap view pinpointing the user’s emergency location using received latitude and longitude coordinates for quick visual identification.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](Images/Alert_msg.png)
+Shows the processed emergency message including device ID, user name, fallback GPS handling, precise coordinates, human-readable location, and confirmation of panic alert detection.
 
 #### Diagrams
 
@@ -126,11 +126,14 @@ The transmitter circuit is built around the ESP32 microcontroller, where the LoR
 
 ![Components](Images/HW_COMP.png)
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+![Build1](Images/Reciever.jpeg)
+Displays the receiver-side ESP32 connected to the RA-02 LoRa module and antenna, responsible for capturing transmitted emergency packets and forwarding clean serial data to the Python-based monitoring system.
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![Build1](Images/Transmitter.jpeg)
+Shows the complete transmitter-side hardware setup on a breadboard, integrating the ESP32 microcontroller with the NEO-6M GPS module, RA-02 LoRa transceiver with external antenna, OLED display for status output, and interconnecting jumper wires for real-time emergency data transmission.
+
+![Final](Images/Comb.jpeg)
+Shows the complete Rakshak 1.0 women safety system operating in real time, with the transmitter unit capturing GPS data and emergency events, the receiver unit receiving LoRa alerts, and the Python monitoring application simultaneously displaying processed emergency data and live location on OpenStreetMap along with instant desktop notifications.
 
 ---
 
