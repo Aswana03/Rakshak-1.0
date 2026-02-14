@@ -115,11 +115,8 @@ Shows the processed emergency message including device ID, user name, fallback G
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+![Circuit](Images/ckt_dgm.png)
+This schematic illustrates the complete hardware interconnection of the Rakshak 1.0 women safety system. The transmitter ESP32 interfaces with the NEO-6M GPS module via UART for real-time location acquisition, the ADXL335 accelerometer through analog GPIO pins for fall detection, and an OLED display using I²C for status visualization. Emergency triggers are provided through push buttons. LoRa RA-02 modules are connected to both ESP32 boards using SPI communication, enabling long-range wireless data transmission between the wearable unit and the monitoring receiver.
 
 #### Build Photos
 
