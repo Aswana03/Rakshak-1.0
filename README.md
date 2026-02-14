@@ -39,7 +39,6 @@ We solve this problem by developing Rakshak 1.0, a wearable, offline women safet
 - Main components: ESP 32,NEO 6M GPS Module,RA-02 LoRa Module,OLED Display,ADXL335 Accelerometer
 - Tools required: USB Cable,Breadboard,Jumper wires/Single strand wires,PC etc....
 
----
 
 ## Features
 
@@ -97,19 +96,6 @@ Displays the automatically opened OpenStreetMap view pinpointing the user’s em
 
 ![Screenshot3](Images/Alert_msg.png)
 Shows the processed emergency message including device ID, user name, fallback GPS handling, precise coordinates, human-readable location, and confirmation of panic alert detection.
-
-#### Diagrams
-
-**System Architecture:**
-
-![Architecture Diagram](docs/Workflow.png)
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
 
 ### For Hardware:
 
